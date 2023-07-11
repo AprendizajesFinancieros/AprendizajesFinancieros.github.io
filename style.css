@@ -1,0 +1,37 @@
+body {
+    background-image: url(IMAG.1.jpg);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-family: castellar;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 190px;
+}
+
+.button {
+    margin-top: 90px;
+    display: inline-block;
+    padding: 10px 20px ;
+    background-color:#336666;
+    color: white;
+    font-size: 20px; 
+    text-decoration:none ;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+.button:hover{
+    background-color:	#008080;
+}

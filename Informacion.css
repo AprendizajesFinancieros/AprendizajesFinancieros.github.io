@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(IMAG.3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9000;
+}
+
+.logo{
+
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt h1{
+    font-size: 85px;
+    color: #ffffff;
+    font-family: Arial Rounded MT Bold;
+    margin-bottom: 20px;
+}
+
+.header-txt p{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+.btn-1{
+    
+    display: inline-block;
+    padding:12px 45px ;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size:16px ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-1:hover{
+    color: #ffffff;
+    background-color: darkcyan;
+}
+
+.general{
+    padding: 50px 0 ;
+    text-align: center;
+
+}
+
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-family:Arial Rounded MT Bold ;
+    font-size: 19px;
+}
+.general-1{
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  450px;
+    padding: 170px 55px;
+}
+
+.general-2{
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  550px;
+    padding: 170px 55px;
+}
+
+.general-3{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  950px;
+    padding: 170px 55px;
+}
+
+
+
+
+
+

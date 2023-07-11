@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificacion</title>
+  <link rel="stylesheet" href="FormularioIni.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario de Registro</h2>
+    <form id="formularioRegistro">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      
+      <label for="telefono">Número de Teléfono:</label>
+      <input type="tel" id="telefono" required>
+      
+      <label for="grado">Grado de Escolaridad:</label>
+      <select id="grado" required>
+        <option value="">Selecciona</option>
+        <option value="primaria">Primaria</option>
+        <option value="secundaria">Secundaria</option>
+        <option value="preparatoria">Preparatoria</option>
+        <option value="universidad">Universidad</option>
+      </select>
+      
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" required>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <script src="FormularioIni.js"></script>
+</body>
+</html>
