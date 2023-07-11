@@ -15,7 +15,7 @@ function validarEdad() {
 
     if (edad >= 18) {
       alert('¡Bienvenido/a, ' + nombre + '! Puedes acceder a la página.');
-      window.location.href = 'informacion.html';
+      window.location.href = 'Informacion.html';
     } else {
       alert('Lo siento, ' + nombre + '. Debes ser mayor de 18 años para acceder a la página.');
     }
